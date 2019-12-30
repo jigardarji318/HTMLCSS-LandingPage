@@ -77,8 +77,8 @@ section {
 }
 
 .btn {
-    cursor: pointer;
-    border-bottom: 0;
+    cursor: default;
+    border-style: none;
     padding: 6px 12px;
     border-radius: 3px;
     line-height: 1.4;
@@ -97,7 +97,7 @@ section {
 .form-control {
     display: block;
     padding: 6px 12px;
-    border: solid #a0a0a0;
+    border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
 }
